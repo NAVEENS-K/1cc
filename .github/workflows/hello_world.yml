@@ -7,6 +7,6 @@ jobs:
       - name: my-job
         run: echo "hello world"
         
-      - name: another-job
-        run: echo "hello world 2"
+      - name: name-job
+        run: echo "NAVEENS - 24CB033"
       
