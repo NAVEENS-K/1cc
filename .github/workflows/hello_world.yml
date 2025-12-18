@@ -1,0 +1,12 @@
+name: hello_world_pipeline
+on: push
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: my-job
+        run: echo "hello world"
+        
+      - name: another-job
+        run: echo "hello world 2"
+      
